@@ -129,3 +129,16 @@ ol.q2{
     width: 600px;
     font-size: large;
 }
+/*Hover effect for answers */
+.answer {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.answer:hover {
+    opacity: 1;
+}
+.internet:hover .answer {
+    opacity: 1;
+    color:blue;
+}
