@@ -146,14 +146,14 @@ ol.q2{
     font-size: large;
 }
 /*Hover effect for answers */
+
 .answer {
     opacity: 0;
     transition: opacity 0.3s;
+    position: relative;
+    z-index: 2;
 }
 
-.answer:hover {
-    opacity: 1;
-}
 .internet:hover .answer {
     opacity: 1;
     color:blue;
