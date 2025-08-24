@@ -1,0 +1,88 @@
+:root{
+    --main-color: #4CAF50;
+    --secondary-color: #df1406;
+    --font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+section {
+    padding: 20px;
+}
+h1, h2 {
+    color: var(--main-color);
+}
+p {
+    line-height: 1.6;
+}               
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}       
+footer p {
+    margin: 0;
+}
+section{
+    background-color: rgb(238, 236, 231);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.internet{
+    background-color: rgb(221, 219, 219);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.internet:hover{
+    background-color: rgb(255, 179, 179);
+    border: solid red 2px;
+    cursor:pointer;
+}
+
+ 
+article aside{
+   
+    display: flex;
+    align-items: flex-start;
+    gap: 30px; /* space between heading and list */
+}
+article h2 {
+    margin: 0;
+    min-width: 150px; /* optional: keeps heading from shrinking too much */
+}
+article ol {
+    margin: 0;
+}
