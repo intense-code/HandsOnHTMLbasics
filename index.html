@@ -11,7 +11,8 @@
     <header >
         <div><img src="532-600x130.jpg" /></div>
         <div>
-            <nav><a>Favorite Places</a><a>Questions</a></nav>
+            <nav><a href="#favorite_places">Favorite Places</a>
+            <a href="#questions">Questions</a></nav>
         </div>
         <div>
             <h1>Welcome to my Webpage</h1>
@@ -20,7 +21,7 @@
     </section>
     <div class="qs">
         <div class="question-row">
-            <h2>Questions</h2>
+            <h2 id="questions">Questions</h2>
             <p>?</p>
         </div>
     
@@ -48,37 +49,52 @@ Example: "Why do people buy domain names for websites instead of using IP addres
 </li>
 
 </div>
-<h3>Summarize how information travels from your computer to a website and back.
+<div class="qs question-group">
+    <div class="question-row">
+        <h4 >Summarize how information travels from your computer to a website and back.
 Include terms like request, server, and browser.
-Part B: Browsers and HTML</h3>
+Part B: Browsers and HTML</h4>
 
-<li>What is a Web Browser?</li>
-<li>Define what a web browser does.</li>
-<li>Example: "How does a browser help users interact with the internet?"</li>
-<li>What is HTML?</li>
+    </div>
+
+    <ol class="q2">
+    <li class="internet">What is a Web Browser?</li>
+<li class="internet">Define what a web browser does.</li>
+<li class="internet">Example: "How does a browser help users interact with the internet?"</li>
+<li class="internet">What is HTML?</li>
+    </div>
+<div class="qs question-group">
 <h4>Write a short definition of HTML and its role in building web pages.</h4>
-<li>Example: "Why is HTML considered the backbone of web pages?"</li>
-<li>What Happens When You Enter a URL into a Browser?</li>
-<li>
-    <ol>
-        <h5>Describe the steps involved, from entering a URL to seeing the web page</h5>
-        <li>Open your web browser</li>
-        <li>Hit ctrl+l on your keyboard or click the long box on the upper portion of the browser</li>
-        <li>Type www.google.com followed by Enter</li>
-        <li>The url makes a request to the google.com server by filling out the header with named pairs such as Authorization: Bearer Token</li>
-        <li>The server sends a response to the ip's browser</li>
-        <li>The browser now renders a response to the webpage at google.com</li>
+<li class="internet">Example: "Why is HTML considered the backbone of web pages?"</li>
+<li class="internet">What Happens When You Enter a URL into a Browser?</li>
+
+</ol>
+</div>
+<div class="cc">
+    <ol class="q2">
+        <h3>Describe the steps involved, from entering a URL to seeing the web page</h3>
+        <li class="internet">Open your web browser</li>
+        <li class="internet">Hit ctrl+l on your keyboard or click the long box on the upper portion of the browser</li>
+        <li class="internet">Type www.google.com followed by Enter</li>
+        <li class="internet">The url makes a request to the google.com server by filling out the header with named pairs such as Authorization: Bearer Token</li>
+        <li class="internet">The server sends a response to the ip's browser</li>
+        <li class="internet">The browser now renders a response to the webpage at google.com</li>
     </ol>
-</li>
 
             </ol>
-            <h3>My Favorite Places</h3>
-            <p>Here are some of my favorite places to visit:</p>
-            <ul>
-                <li>Paris, France</li>
-                <li>Kyoto, Japan</li>
-                <li>New York City, USA</li>
+    <div  class="question-group">
+        <h3 id="favorite_places">My Favorite Places</h3>
+            
+                <p>Here are some of my favorite places to visit:</p>
+            <ul class="q2">
+                <li class="internet">Paris, France</li>
+                <li class="internet">Kyoto, Japan</li>
+                <li class="internet">New York City, USA</li>
             </ul>
+             
+
+    </div>
+</div>
         
     
     <footer>
