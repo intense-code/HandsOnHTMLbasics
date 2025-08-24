@@ -1,3 +1,4 @@
+
 :root{
     --main-color: #4CAF50;
     --secondary-color: #df1406;
@@ -58,7 +59,7 @@ section{
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-
+/* Background for questions first 1s */
 .internet{
     background-color: rgb(221, 219, 219);
     margin: 20px;
@@ -78,38 +79,53 @@ section{
     align-items: flex-start;
     gap: 30px; /* space between heading and list */
 }
-.question-row h2 {
-    margin-top: 170px;
-    min-width: 150px; /* optional: keeps heading from shrinking too much */
-}
-.question-row ol {
-    margin: 0;
-}
-aside .qs ol{
-    display:flex;
-    flex-direction: column-reverse  ;
+ 
+ 
+ 
+.qs{
+    
+    display: flex;
+    flex-direction: row-reverse;
     align-items: flex-start;
-    justify-content: center;
+    gap: 30px;
+   
 }
-aside ol{
-    margin: 0;
-    width:60%;
-    padding-left: 20px;
-
+ 
+div.question-row{
+    background-color: rgb(221, 219, 219);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 200px;
+    height: 200px;
 }
-section div{
+ div.question-row:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(179, 255, 179);
     display:flex;
-    flex-direction: column;
+    width: 16%;
+    height:100%;
+    flex-direction: column-reverse;
     justify-content: center;
-    width:30%;
+    
 }
+/* Style the quesion box */
 .question-row p{    
     font-size: 40px;
     color:green;
     font-weight: bold; 
 }
-div p{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Background for questions */
+ol.q2{
+    background-color: rgb(172, 36, 36);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 600px;
+    font-size: large;
 }
