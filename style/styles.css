@@ -191,7 +191,13 @@ ol.q2{
     align-items: flex-start;
     gap: 30px;
 }
-
+.bio{
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 /* Center and columize the bottom*/
 .cc {
     height:100%;
@@ -216,7 +222,9 @@ div.cc:hover{
     cursor:pointer;
 }
 
-
+a{
+    text-decoration:none;
+}
 
 @media (max-width: 768px) {
     div.question-row:hover{
